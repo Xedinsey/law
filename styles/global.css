@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&display=swap');
 
 /* Box sizing rules */
 *,
@@ -37,7 +37,7 @@ body {
     scroll-behavior: smooth;
     text-rendering: optimizeSpeed;
     line-height: 1.5;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Cormorant Garamond', serif;
 }
 
 /* Remove list styles on ul, ol elements with a class attribute */

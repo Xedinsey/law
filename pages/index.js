@@ -33,7 +33,7 @@ const Home = () => {
                 </nav>
                 <main className={styles.main}>
                     <section className={styles.block}>
-                        <div>
+                        <div className={styles.block__content}>
                             <Image src="/img/image.svg" width={95} height={44} alt="image" />
                             <h2>We're Group Of Certified Law Professionals</h2>
                             <p>we have helped countless maritime workers and their families go up against the largest offshore companies and win.</p>

@@ -12,10 +12,11 @@
     /*border: green 5px solid;*/
     justify-content: space-between;
     align-items: center;
+    margin-top: 20px;
 }
 
 .logo {
-    margin-left: 40px;
+    margin-left: 80px;
 }
 
 .button {
@@ -24,6 +25,7 @@
     padding: 25px 40px;
     color: #fff;
     cursor: pointer;
+    font-size: 22px;
 }
 
 .button:hover {
@@ -58,10 +60,12 @@
     color: white;
     text-decoration: none;
     padding: 15px;
+    font-size: 22px;
 }
 
 .links a:hover {
-    background: #D1B06B;
+    color: #D1B06B;
+    border-bottom: #D1B06B solid 2px;
 }
 
 .navigation-item-active {
@@ -79,7 +83,14 @@
     margin: 10px;
     text-decoration: none;
     color: white;
+    font-size: 22px;
 }
+
+.contacts a:hover {
+    color: #D1B06B;
+    border-bottom: #D1B06B solid 2px;
+}
+
 
 .main {
     flex: 1;
@@ -88,6 +99,42 @@
 
 .block {
     display: flex;
+
+}
+
+.block__content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 40px 0 40px 0;
+    gap: 40px;
+    margin-left: 40px;
+}
+.block__content h2 {
+    font-size: 65px;
+    font-weight: 400;
+}
+
+.block__content p {
+    font-size: 22px;
+    color: #D1B06B;
+}
+
+.block__content button {
+    background: #D1B06B;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 25px 40px ;
+    color: #fff;
+    cursor: pointer;
+    font-size: 22px;
+    width: 270px;
+    height: 85px;
+}
+
+.block__content button:hover {
+    color: #1F2732;
+    border: 1px solid #D1B06B;
 }
 
 .image {
