@@ -13,7 +13,7 @@ const Home = () => {
             </Head>
             <div className={styles.container}>
                 <header className={styles.header}>
-                    <h1>ЮРИСТЫ</h1>
+                    <div className={styles.logo}><h1>ЮРИСТЫ</h1></div>
                     <button className={styles.button}>Записаться на консультацию</button>
                 </header>
                 <nav className={styles.nav}>
