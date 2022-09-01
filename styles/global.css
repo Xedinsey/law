@@ -33,7 +33,6 @@ dd {
 
 /* Set core body defaults */
 body {
-    min-height: 100vh;
     scroll-behavior: smooth;
     text-rendering: optimizeSpeed;
     line-height: 1.5;
@@ -78,4 +77,8 @@ select {
         transition-duration: 0.01ms !important;
         scroll-behavior: auto !important;
     }
+}
+
+body {
+    background-color: rgba(31, 39, 50, 0.80);
 }
