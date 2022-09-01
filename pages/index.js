@@ -17,11 +17,13 @@ const Home = () => {
                     <button className={styles.button}>Записаться на консультацию</button>
                 </header>
                 <nav className={styles.nav}>
-                    <ul>
-                        <li><a href="/">Главная</a></li>
-                        <li><a href="#">Контакты</a></li>
-                        <li><a href="#">О нас</a></li>
-                    </ul>
+                    <div className={styles.links}>
+                        <ul>
+                            <li><a href="/">Главная</a></li>
+                            <li><a href="#">Контакты</a></li>
+                            <li><a href="#">О нас</a></li>
+                        </ul>
+                    </div>
                     <div className={styles.contacts}>
                         <Image src="/img/call.svg" width={40} height={40} alt="call"/>
                         <a href="tel: +74951234567">+7 (495) 123-45-67</a>
@@ -29,7 +31,7 @@ const Home = () => {
                         <a href="mailto: example@mail.ru">example@mail.ru</a>
                     </div>
                 </nav>
-                <main>
+                <main className={styles.main}>
                     <section className={styles.block}>
                         <div>
                             <Image src="/img/image.svg" width={95} height={44} alt="image" />
@@ -37,11 +39,12 @@ const Home = () => {
                             <p>we have helped countless maritime workers and their families go up against the largest offshore companies and win.</p>
                             <button>Get In Touch</button>
                         </div>
-                        <div className={styles.image}>
-                            <Image src={man} width={672} height={708} alt="alt"/>
-                        </div>
+                        <Image src={man} width={672} height={708} alt="alt"/>
                     </section>
                 </main>
+                <footer className={styles.footer}>
+                    <p>Copyright © maksibond.dev | Designed by</p>
+                </footer>
             </div>
         </>
     )
