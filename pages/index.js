@@ -25,14 +25,14 @@ const Home = () => {
                     <div className={styles.contacts}>
                         <Image src="/img/call.svg" width={40} height={40} alt="call"/>
                         <a href="tel: +74951234567">+7 (495) 123-45-67</a>
-                        <Image src="/img/mail.svg" width={40} height={40} alt="call"/>
+                        <Image src="/img/mail.svg" width={40} height={40} alt="mail"/>
                         <a href="mailto: example@mail.ru">example@mail.ru</a>
                     </div>
                 </nav>
                 <main>
                     <section className={styles.block}>
                         <div>
-                            <Image src="/img/херня.svg" width={95} height={44} />
+                            <Image src="/img/image.svg" width={95} height={44} alt="image" />
                             <h2>We're Group Of Certified Law Professionals</h2>
                             <p>we have helped countless maritime workers and their families go up against the largest offshore companies and win.</p>
                             <button>Get In Touch</button>

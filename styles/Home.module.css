@@ -6,8 +6,8 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    align-content: center;
     max-width: 1200px;
+    justify-items: center;
 }
 
 .header {
@@ -17,6 +17,7 @@
     align-items: center;
     margin: 0 40px;
     padding-top: 20px;
+    flex-wrap: wrap;
 }
 
 .button {
@@ -34,11 +35,11 @@
 
 .nav {
     display: flex;
-    justify-content: space-between;
     border-top: #4E555F solid 1px;
     border-bottom: #4E555F solid 1px;
-    padding: 10px 40px;
     margin: 10px 0;
+
+    justify-content: space-between;
 }
 
 .nav > ul {
