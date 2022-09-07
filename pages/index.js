@@ -13,7 +13,10 @@ const Home = () => {
             </Head>
             <div className={styles.container}>
                 <header className={styles.header}>
-                    <div className={styles.logo}><h1>ЮРИСТЫ</h1></div>
+                    <div className={styles.logo}>
+                        <Image src="/img/group.svg" width={60} height={60} alt="logo"/>
+                        <h1>ЮРИСТЫ</h1>
+                    </div>
                     <button className={styles.button}>Записаться на консультацию</button>
                 </header>
                 <nav className={styles.nav}>

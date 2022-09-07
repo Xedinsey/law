@@ -17,6 +17,9 @@
 
 .logo {
     margin-left: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .button {
@@ -61,11 +64,37 @@
     text-decoration: none;
     padding: 15px;
     font-size: 22px;
+    position:relative;
+    display:inline-block;
+
+}
+.links a:after {
+    content:"";
+    position:absolute;
+    bottom:0;
+    left: 15px;
+    width: 10%;
+    height:0;
+    opacity: 0;
 }
 
 .links a:hover {
     color: #D1B06B;
-    border-bottom: #D1B06B solid 2px;
+    transition: color 1.5s;
+}
+
+.links a:hover::after {
+    content:"";
+    position:absolute;
+    bottom:0;
+    left: 15px;
+    width:80%;
+    height:0;
+    color: #D1B06B;
+    border: #D1B06B 3px solid;
+    border-radius: 10px;
+    opacity: 100%;
+    transition: width 1.5s, opacity 1.5s;
 }
 
 .navigation-item-active {
